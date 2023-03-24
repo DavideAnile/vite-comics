@@ -54,24 +54,21 @@ nav{
     background-color: white;
     color: black;
 
+   
     .my-container{
-        width: 80%;
-        height: 100%;
-        margin: 0 auto;
+
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        
         .img-container{
             width: 100px;
             height: 100%;
             padding: 20px;
-
+    
             img{
                 height: 100%;
             }
         }
-
+    
         ul{
             display: flex;
             height: 100%;
@@ -91,7 +88,9 @@ nav{
                 
            }    
         }
+
+    }   
+        
     }
-}
 
 </style>
