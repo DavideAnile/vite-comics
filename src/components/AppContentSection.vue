@@ -53,6 +53,7 @@
     .my-container{
         display: flex;
         justify-content: space-between;
+        padding: 0 50px;
         
         
 
@@ -63,12 +64,20 @@
             font-weight: bold;
             cursor: pointer;
             
-            img{
-                width: 50px;
+            .img-container img{
+                height: 50px;
                 
             }
+
+        }
+           
+        .link-container:last-child img{
+            height: 30px;
+        }
+            
         
-    }
+
+
 }
 }
 

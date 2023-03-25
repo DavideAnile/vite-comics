@@ -1,6 +1,7 @@
 <script>
   import AppHeader from "./components/AppHeader.vue";
   import AppContent from"./components/AppContent.vue";
+  import AppReferencies from"./components/AppReferencies.vue";
 
   export default {
     data(){
@@ -11,7 +12,8 @@
 
     components : {
       AppHeader,
-      AppContent
+      AppContent,
+      AppReferencies
     }
   }
 
@@ -20,6 +22,7 @@
 <template>
   <AppHeader></AppHeader>
   <AppContent></AppContent>
+  <AppReferencies></AppReferencies>
 </template>
 
 <style>

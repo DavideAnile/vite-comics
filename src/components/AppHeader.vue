@@ -15,7 +15,7 @@
                     'shop'
                 ],
 
-                activeIndex : 0
+                activeIndex : null
             }
         },
 
@@ -78,12 +78,13 @@ nav{
             align-items: center;
             padding: 8px;
             font-weight: bold;
-            border-bottom: 2px solid transparent;
+            border-bottom: 4px solid transparent;
             cursor: pointer;
+            text-transform: uppercase;
             
             &.active{
                 color: blue;
-                border-bottom: 2px solid blue;
+                border-bottom: 4px solid blue;
                 }
                 
            }    

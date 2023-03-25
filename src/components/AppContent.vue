@@ -29,15 +29,15 @@ import AppContentSection from "./AppContentSection.vue"
     .my-container{
         display: flex;
         
-        justify-content: center;   
+        justify-content:    flex-start;   
         .content{
             display: flex;
-            justify-content: center;
             align-items: center;
             height: 120px;
-            font-size: 2em;
+            font-size: 1.5em;
             font-weight: bold;
         }
+            
 
     }
 
